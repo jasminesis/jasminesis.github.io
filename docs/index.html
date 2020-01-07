@@ -14,6 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Public+Sans:300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -32,30 +33,32 @@
     </nav>
 
     <div id="about" class="section-odd">
-        <div class="main">
-            <h1 class="heading">Hello</h1>
-            <h2 class="display-4">I'm Jasmine Siswandjo</h2>
-            <p>A full-stack developer in Singapore, looking for my next opportunity. 
-                <p>
+        <div class="main col-8">            
+            <div>
+                <img src="project-images/photo of me.jpg" class="rounded-circle col-3 float-left">
+            </div>
+<div>
 
-                    I am driven to create programs that
-                    are
-                    fun, accessible and beautiful. My experiences as a business development executive has given me a strong
-                    understanding of core product value and the user experience.
-                </p>
-            </p>
-        </div>
+    <h1 class="display-1" style="color: #d66b6b;" id="hello"></h1>
+    <h2 class="display-4">I'm Jasmine Siswandjo.</h2>
+    <h4>A <u>full-stack developer</u> in Singapore, looking for my next opportunity. </h4>
+    <p>I am driven to create programs that
+        are
+        fun, accessible and beautiful. My experiences as a business development executive has given me a strong
+        understanding of core product value and the user experience.</p>
+    </div>
+    </div>
     </div>
 
     <div id="experience" class="section-even">
         <h1 class="heading">Experience</h1>
         <div id="springford" class="d-flex">
-            <div class="col-4">
+            <div class="col-4"">
                 <h2>Business Development Executive</h2>
-                <h4>Springford Trading Pte Ltd</h4>
+                <h5>Springford Trading Pte Ltd</h5>
                 <h5>Nov 2018 - Sep 2019</h5>
             </div>
-            <div class="col-4 d-flex flex-column">
+            <div class="col-6 d-flex flex-column">
                 <li>
                     Maintained customer retention of 6 customers throughout employment period
                 </li>
@@ -79,29 +82,29 @@
         <div id="vet" class="d-flex">
             <div class="col-4">
                 <h2>Animal Attendant</h2>
-                <h4>Sydney Veterinary Emergency & Specialists</h4>
+                <h5>Sydney Veterinary Emergency & Specialists</h5>
                 <h5>March - Aug 2018</h5>
             </div>
-            <div class="col-4 d-flex flex-column">
+            <div class="col-6 d-flex flex-column">
+                <li>Stayed calm and focused during crises such as resuscitation and emergency surgeries</li>
                 <li>Worked independently to complete daily tasks while showing initiative and managing priorities by
                     helping out when needed, such as when carrying heavy animals or assisting vet nurses with
                     procedures</li>
                 <li>Scheduled to work on weekends when the vet clinic was most understaffed, as the most competent
                     animal attendant</li>
-                <li>Stayed calm and focused during crises such as resuscitation and emergency surgeries</li>
             </div>
         </div>
     </div>
 
     <div id="education" class="section-odd">
         <h1 class="heading">Education</h1>
-        <div class="d-flex">
+        <div class="d-flex" id="ga">
             <div class="col-4">
                 <h2>General Assembly Singapore</h2>
-                <h4>Software Engineering Immersive</h4>
+                <h5>Software Engineering Immersive</h5>
                 <h5>Class of 2019 (SEI-20)</h5>
             </div>
-            <div class="col-4 d-flex flex-column">
+            <div class="col-6 d-flex flex-column">
                 <li>Built full stack web applications in Javascript and Ruby on Rails using MVC, RESTful, and
                     object-oriented design patterns</li>
                 <li>Learnt PSQL, data structures and algorithms</li>
@@ -113,11 +116,11 @@
         <div class="d-flex">
             <div class="col-4">
                 <h2>University of Sydney</h2>
-                <h4>BS/BA (Geography and Gender & Cultural Studies)</h4>
+                <h5>BS/BA (Geography and Gender & Cultural Studies)</h5>
                 <h5>Class of 2018</h5>
                 <h5>Distinction average</h5>
             </div>
-            <div class="col-4 d-flex flex-column">
+            <div class="col-6 d-flex flex-column">
                 <li>Awarded International Exchange Scholarship (2017)</li>
                 <li>Active member of Sydney University Judo Club</li>
                 <li>Rookie of the Year 2015</li>
@@ -130,36 +133,50 @@
     </div>
     <div id="skills" class="section-even">
         <h1 class="heading">Skills</h1>
+        <div class="d-flex justify-content-center col-8 text-center" style="margin: 0 auto;">
+            <div class="col-6">
+                <li><i class="fab fa-html5"></i>HTML5</li>
+                <li><i class="fab fa-css3-alt"></i>CSS</li>
+                <li><i class="fab fa-js-square"></i>JavaScript</li>
+                <li><i class="fab fa-bootstrap"></i>Bootstrap</li>
+            </div>
+            <div class="col-6">
+                <li><i class="fab fa-node-js"></i>NodeJS</li>
+                <li><i class="fab fa-react"></i>ReactJS</li>
+                <li><i class="fab fa-node-js"></i>ExpressJS</li>
+                <li><img id="rails" src="project-images/iconfinder_ruby-on-rails_3069735.png"> Ruby on Rails</li>
+                <li><a href="https://icons8.com/icon/38561/postgresql"><img src="https://img.icons8.com/color/48/000000/postgreesql.png"></a>PSQL</li>
+            </div>
+        </div>
 
     </div>
 
     <div id="projects" class="section-odd">
         <h1 class="heading">Projects</h1>
-        <div class="d-flex flex-wrap text-center" >
-        <div class="col-5">
-            <a href="https://jasminesis.github.io/vigilante/"><img src="../project-images/swan1.png" class="img-fluid" alt="Swan flying accross the screen with lava rocks falling"></a>
+        <div class="d-flex flex-wrap text-center col-9" style="margin:0 auto">
+        <div class="col-6">
             <a href="https://jasminesis.github.io/vigilante/"><h2>Swan Endless Flyer</h2></a>
+            <a href="https://jasminesis.github.io/vigilante/"><img src="project-images/swan1.png" class="img-fluid rounded" alt="Swan flying accross the screen with lava rocks falling"></a>
             <p>Dodge falling lava rocks in this endless 2-D ’flyer’.</p>
             <p>Built with vanilla JavaScript and HTML Canvas, it incorporates game mechanics for collision detection, gravity and acceleration.</p>
             
         </div>
-        <div class="col-5">
-            <a href="https://octo-rewards.herokuapp.com/"><img src="../project-images/octo1.png" class="img-fluid" alt="Card expense tracker with pastel colour theme"></a>
+        <div class="col-6">
             <a href="https://octo-rewards.herokuapp.com/"><h2>Octo Rewards</h2></a>
+            <a href="https://octo-rewards.herokuapp.com/"><img src="project-images/octo1.png" class="img-fluid rounded" alt="Card expense tracker with pastel colour theme"></a>
             <p>Optimise credit cards and their rewards by tracking spending on each card.</p>
             <p>Made using Express.js, with PSQL database and AJAX requests, all on an MVC architectural pattern.</p>
         </div>
-        <div class="col-5">
-            <a href="https://jedi-unity.herokuapp.com/"><img src="../project-images/unity2.png" class="img-fluid" alt="Cards with games, friends and schedules"></a>
+        <div class="col-6">
             <a href="https://jedi-unity.herokuapp.com/"><h2>Unity</h2></a>
+            <a href="https://jedi-unity.herokuapp.com/"><img src="project-images/unity2.png" class="img-fluid rounded" alt="Cards with games, friends and schedules"></a>
             <p>Connect gamers by sharing free time slots to schedule gaming sessions together.</p>
             <p>Done on a Ruby on Rails framework, using simple calendar gem and fun CSS effects for an appealing landing.</p>
         
         </div>
-        <div class="col-5">
-            <a href="https://jasminesis.github.io/panda-fishing/"><img src="../project-images/panda1.png" class="img-fluid" alt="Panda fishing game"></a>
-            <a href="https://jasminesis.github.io/panda-fishing/">
-            <h2>Panda goes fishing!</h2></a>
+        <div class="col-6">
+            <a href="https://jasminesis.github.io/panda-fishing/"><h2>Panda goes fishing!</h2></a>
+            <a href="https://jasminesis.github.io/panda-fishing/"><img src="project-images/panda1.png" class="img-fluid rounded" alt="Panda fishing game"></a>
             <p>Fun reaction-based game to catch the fish within the green glass.</p>
             <p>First game ever, learnt to use HTML Canvas.</p>
         </div>
@@ -169,9 +186,11 @@
     </div>
 </div>
     <div id="contact" class="section-even">
-        <h1 class="heading">Contact Me</h1>
-
-
+        <h1 class="heading">Contact</h1>
+        <p><a href="mailto:jasmine@siswandjo.com"><i class="fas fa-envelope-square"></i>jasmine@siswandjo.com</a></p>
+        <p><a href="https://www.linkedin.com/in/jasminesis/"><i class="fab fa-linkedin"></i>linkedin.com/in/jasminesis</a></p>
+        <p><a href="https://github.com/jasminesis"><i class="fab fa-github"></i>github.com/jasminesis</a></p>
+            
     </div>
 
     </div>
