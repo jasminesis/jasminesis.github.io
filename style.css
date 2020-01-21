@@ -2,10 +2,14 @@ body {
 	font-family: 'Public Sans', sans-serif;
 }
 
-.col-4 {
-	color: #007672;
+.section-odd {
+	background-color: #e0f1f3;
+	padding: 3rem 4rem 6rem 4rem;
 }
 
+.section-even {
+	padding: 3rem 4rem 6rem 4rem;
+}
 .section-odd h2,
 .section-even h2 {
 	color: #006662;
@@ -19,7 +23,6 @@ body {
 li {
 	list-style-type: square;
 }
-
 
 .heading {
 	color: #004a44;
@@ -36,15 +39,7 @@ h5 {
 
 .col-4 {
 	padding-left: 0;
-}
-
-.section-odd {
-	background-color: #e0f1f3;
-	padding: 3rem 4rem 6rem 4rem;
-}
-
-.section-even {
-	padding: 3rem 4rem 6rem 4rem;
+	color: #007672;
 }
 
 #springford,
@@ -61,8 +56,8 @@ h5 {
 	margin: 1.5rem 0;
 }
 
-#rails {
-	width: 40px;
+#skills img {
+	width: 23px;
 }
 
 #skills li {
@@ -88,8 +83,8 @@ h5 {
 	margin-right: 0.5rem;
 }
 
+/* for smaller screen size */
 @media screen and (max-width: 767px) {
-
 	/* Add a black background color to the top navigation */
 	.main-nav {
 		background-color: #333;
@@ -113,11 +108,14 @@ h5 {
 	.main-nav li {
 		display: inline;
 	}
-
+	#projects-div > div {
+		border-width: 60%;
+		margin-bottom: 16px;
+		border-bottom: 1px solid #006662;
+	}
 }
 
 @media screen and (min-width: 768px) {
-
 	.main-nav {
 		position: sticky;
 		float: right;
@@ -142,5 +140,4 @@ h5 {
 	#sydney {
 		display: flex;
 	}
-
 }
